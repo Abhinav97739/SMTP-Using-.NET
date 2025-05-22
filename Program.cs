@@ -4,13 +4,13 @@ using System.Net.Http;
 
 Console.WriteLine("Hello, World!");
 
-string connectionString = "endpoint=https://testcomm-service.unitedstates.communication.azure.com/;accesskey=553DRxd2Emt9NwuoVJSyk7qS4aDLDPyHBtekDoIsqAPgKTEDL7owJQQJ99BEACULyCpnbo2BAAAAAZCSWDA2";
+string connectionString = "CONNECTION-STRING-HERE";
 EmailClient emailClient = new EmailClient(connectionString);
 
 var subject = "Test Email";
 var body = "This is a test email.";
-var sender = "doNotReply@f0816a49-8bf4-4237-8f94-ac7b7b97c96f.azurecomm.net";
-var recipient = "farazansari9993@gmail.com";
+var sender = "DOMAIN-EMAIL";
+var recipient = "SENDER-EMAIL";
 
 try 
 {
